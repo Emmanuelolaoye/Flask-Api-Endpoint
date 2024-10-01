@@ -10,6 +10,7 @@ flask = "^3.0.3"
 pytest = "^8.3.2"
 ruff = "^0.6.3"
 mypy = "^1.11.2"
+setuptools = "^75.1.0"
 
 [build-system]
 requires = ["poetry-core"]
