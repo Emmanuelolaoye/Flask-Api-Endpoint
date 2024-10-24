@@ -4,7 +4,7 @@
 
 ## Introduction
 
-I set up the  Flask API that runs on port `5001` and i made some aditions to the `pytest` test showing the endpoint appropriately handling all required conditions.
+I set up the  Flask API that runs on port `5001` and I made some additions to the `pytest` test showing the endpoint appropriately handling all required conditions.
 
 
 ---
