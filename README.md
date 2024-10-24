@@ -1,11 +1,8 @@
-# Emmanuel's Midnite Take-home Technical Challenge
+# Emmanuel's FLask API Endpoint
 
 ---
 
 ## Introduction
-
-Firstly, thank you soo much for the opportunity to apply to Midnite. i hope the following appropriately showa my suitability for this role
-
 
 I set up the  Flask API that runs on port `5001` and i made some aditions to the `pytest` test showing the endpoint appropriately handling all required conditions.
 
@@ -385,16 +382,16 @@ tests/api_test.py::test_third_deposit_within_time_returns_error_300_and_123 PASS
 
 ### Challenges
 
-While I was trying to complete this challenge I faced numerous challenges. firstly initially i had problems trying to run the server on `port 5000` namely due to a port already in use error as macos uses that port for *handoff* and *airdrop* so this now mad me then choose to run the server on `port 5001`. this also meant that when testing the endpoint using a curl command it had to be changed accordingly
+While I was trying to complete this challenge I faced numerous challenges. firstly initially I had problems trying to run the server on `port 5000` namely due to a port already in use error as macos uses that port for *handoff* and *airdrop* so this now made me then choose to run the server on `port 5001`. this also meant that when testing the endpoint using a curl command it had to be changed accordingly
 
 ```sh
 curl -XPOST http://127.0.0.1:5001/event -H 'Content-Type: application/json' \
     -d '{"type": "deposit", "amount": "42.00", "user_id": 1, "time": 0}'
 ```
 
-Once I got the server skeleton running I was then faced with the problem of trying to understand what the `'time': int` meant so to make things easier for my self i then chose to make a function called `add_time` and use the `datetime` library to actually give each user activity payload a datetime which was when it was passes to the endpoint.
+Once I got the server skeleton running I was then faced with the problem of trying to understand what the `'time': int` meant so to make things easier for myself i then chose to make a function called `add_time` and use the `datetime` library to actually give each user activity payload a DateTime which was when it was passed to the endpoint.
 
-apart from all these i found this challenge  quite enjoyable and i hope that it can help demonstate my skills and ability to Midnite
+apart from all these, i found this challenge  quite enjoyable and I hope that it can help demonstrate my skills and ability to Midnite
 
 ---
 `- Emmanuel_Olaoye`
