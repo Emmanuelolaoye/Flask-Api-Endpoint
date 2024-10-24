@@ -1,4 +1,4 @@
-# Emmanuel's FLask API Endpoint
+# Emmanuel's Flask API Endpoint
 
 ---
 
